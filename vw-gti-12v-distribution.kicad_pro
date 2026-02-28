@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "filename": "vw-gti-12v-distribution.kicad_pro",
+    "version": 1
+  },
+  "pcbnew": {
+    "last_paths": {
+      "gencad": "",
+      "idf": "",
+      "svg": "",
+      "plot": "",
+      "gerber": "",
+      "drill": "",
+      "pos_files": ""
+    }
+  },
+  "schematic": {
+    "last_paths": {
+      "netlist": "",
+      "bom": "",
+      "pdf": ""
+    }
+  }
+}
