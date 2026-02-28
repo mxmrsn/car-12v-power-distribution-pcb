@@ -23,3 +23,6 @@ Simple 12V distribution block for supporting multiple interior (12V+)accessories
 
 ## Layout
 ![Layout](pcb-screenshot.png)
+
+## 3D
+![3D](3d-screenshot.png)
