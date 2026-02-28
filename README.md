@@ -1,18 +1,25 @@
 # Car 12V Power Distribution PCB
 
-Simple 12V distribution block for multiple accessories.
+Simple 12V distribution block for supporting multiple interior (12V+)accessories. Note: Some accesories mentioned such as dashcam and charger have downstream 5V regulators. PicoSpox contacts are rated for 3A each with 24AWG wire.
 
 ## Contents
 - `car-12v-power-distribution-pcb.kicad_sch`
 - `car-12v-power-distribution-pcb.kicad_pcb`
-- `PicoSpoX.pretty/PicoSpoX_1x02_P3.00mm_SMD.kicad_mod`
-- `PicoSpoX.pretty/PicoSpoX_1x03_P3.00mm_SMD.kicad_mod`
 
 ## Notes
-- Footprints are generic PicoSpoX-style 3.00 mm pitch SMD footprints. Verify against your exact Molex part.
+- Footprints are Molex PicoSpoX-style SMD footprints. 
 - Inputs:
-  - `IN_BATT` (+12V battery + GND)
-  - `IN_ACC` (+12V accessory + GND)
-- Outputs are 3-pin: `+12V_BATT`, `+12V_ACC`, `GND`
-- PCB uses 1.2 mm traces for all nets. Adjust if you want thicker copper or different current headroom.
-- Board outline is 120 mm x 160 mm. Resize as needed to fit near the fuse box.
+  - `12V+` (+12V battery)
+  - `12V_ACC` (+12V accessory)
+  - `GND` (ground)
+- Output (3-pin): `+12V_BATT`, `+12V_ACC`, `GND`
+- Output (4-pin): `+12V_BATT`, `+12V_ACC`, `+12V_HEADLIGHT`, `GND`
+- PCB uses 40 mil traces for all nets. 
+- Board outline is 1.5" x 2".
+- 3D printed caddy will require strain relief and a mobile loop of wire to move with the opening/closing of the drawer.
+
+## Schematic
+![Schematic](schematic-screenshot.png)
+
+## Layout
+![Layout](pcb-screenshot.png)
