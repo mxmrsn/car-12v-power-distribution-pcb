@@ -19,10 +19,10 @@ Simple 12V distribution block for supporting multiple interior (12V+)accessories
 - 3D printed caddy will require strain relief and a mobile loop of wire to move with the opening/closing of the drawer.
 
 ## Schematic
-![Schematic](schematic-screenshot.png)
+![Schematic](docs/schematic-screenshot.png)
 
 ## Layout
-![Layout](pcb-screenshot.png)
+![Layout](docs/pcb-screenshot.png)
 
 ## 3D
-![3D](3d-screenshot.png)
+![3D](docs/3d-screenshot.png)
