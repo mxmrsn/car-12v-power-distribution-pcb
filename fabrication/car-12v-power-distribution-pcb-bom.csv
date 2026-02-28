@@ -1,0 +1,5 @@
+Comment,Designator,Footprint,LCSC Part #
+LED Light emitting diode,"D1,D2,D3",LED_0603_1608Metric,C2286
+"Conn_01x04 Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)","J1,J3,J5",CONN_874370231-SD_04_MOL,C588581
+"Conn_01x03 Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)","J2,J4,J6,J7",CONN_874370231-SD_03_MOL,C17393004
+500 Resistor,"R1,R2,R3",R_0603_1608Metric,C860931
