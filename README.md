@@ -1,10 +1,10 @@
-# VW GTI 12V Distribution PCB
+# Car 12V Power Distribution PCB
 
 Simple 12V distribution block for multiple accessories.
 
 ## Contents
-- `vw-gti-12v-distribution.kicad_sch`
-- `vw-gti-12v-distribution.kicad_pcb`
+- `car-12v-power-distribution-pcb.kicad_sch`
+- `car-12v-power-distribution-pcb.kicad_pcb`
 - `PicoSpoX.pretty/PicoSpoX_1x02_P3.00mm_SMD.kicad_mod`
 - `PicoSpoX.pretty/PicoSpoX_1x03_P3.00mm_SMD.kicad_mod`
 
